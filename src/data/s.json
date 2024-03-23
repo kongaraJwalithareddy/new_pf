@@ -1,0 +1,134 @@
+{
+  "programming": [
+    {
+      "title": "Java",
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "C",
+      "imageSrc": "skills/c.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "skills/cpp.png"
+    }
+  ],
+  "webTechnologies":[
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "XML",
+      "imageSrc": "skills/xml.jpg"
+    },
+    {
+      "title": "bootstrap",
+      "imageSrc": "skills/bootstrap.png"
+    },
+    {
+      "title": "Json",
+      "imageSrc": "skills/jason.png"
+    },
+    {
+      "title": "TypeScript",
+      "imageSrc": "skills/typescript.png"
+    }
+  ],
+  "dataBase":[
+    {
+      "title": "MySQL",
+      "imageSrc": "skills/mysql1.png"
+    },
+    {
+      "title": "Snowflake",
+      "imageSrc": "skills/snowflake.png"
+    },
+    {
+      "title": "Druid",
+      "imageSrc": "skills/druid.png"
+    },
+    {
+      "title": "GraphQL",
+      "imageSrc": "skills/graphql.png"
+    },
+    {
+      "title": "PostgreSQL",
+      "imageSrc": "skills/postgresql.png"
+    },
+    {
+      "title": "Kubernetes",
+      "imageSrc": "skills/kubernetes.png"
+    },
+    {
+      "title": "AWS",
+      "imageSrc": "skills/aws.png"
+    },
+    {
+      "title": "Docker",
+      "imageSrc": "skills/docker.png"
+    }
+  ],
+  "tools": [
+    {
+      "title": "Git",
+      "imageSrc": "skills/git.png"
+    },
+    {
+      "title": "Bitbucket",
+      "imageSrc": "skills/bitbucket.png"
+    },
+    {
+      "title": "Jira",
+      "imageSrc": "skills/jira.png"
+    },
+    {
+      "title": "Jenkins",
+      "imageSrc": "skills/jenkins.png"
+    },
+    {
+      "title": "Postman",
+      "imageSrc": "skills/postman.png"
+    },
+    {
+      "title": "Jest",
+      "imageSrc": "skills/jest.png"
+    },
+    {
+      "title": "Jmeter",
+      "imageSrc": "skills/jmeter.png"
+    },
+    {
+      "title": "Linux",
+      "imageSrc": "skills/linux.png"
+    },
+    {
+      "title": "OpenCV",
+      "imageSrc": "skills/opencv.png"
+    },
+    {
+      "title": "AI",
+      "imageSrc": "skills/ai.png"
+    }
+  ]
+}

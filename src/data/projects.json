@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Drowsiness Detection",
+    "imageSrc": "projects/project.png",
+    "description": "Real-time computer vision system detects driver drowsiness using Haar cascade classifiers and OpenCV, triggering alarms if drowsiness is detected.",
+    "skills": ["Python", "OpenVC", "Machine learning"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/kongaraJwalithareddy/drowsiness-detection"
+  },
+  {
+    "title": "Multiple Face Recognition",
+    "imageSrc": "projects/project.png",
+    "description": "A system which detects and recognizes multiple faces using OpenCV, and Convolution Neural Network.",
+    "skills": ["Python", "CNN", "OpenCV"],
+    "source": "https://github.com/kongaraJwalithareddy/face_recognition"
+  },
+  {
+    "title": "Credit Card Fraud Detection",
+    "imageSrc": "projects/project.png",
+    "description": "Credit Card Fraud Detection System using Random Forest model deployed on Kubernetes, ensuring robust fraud detection in a scalable environment.",
+    "skills": ["Kubernetes", "Docker", "ML"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

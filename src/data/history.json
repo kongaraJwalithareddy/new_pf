@@ -1,0 +1,33 @@
+[
+  {
+    "role": "Software Developer (full-stack)",
+    "organisation": "Athenahealth",
+    "startDate": "Jun, 2021",
+    "endDate": "Dec 2022",
+    "experiences": ["Improved data visualization platform, adding features and developing dashboards for performance insights on revenue and patient flow.", 
+    "Developed a pipeline Migration of Entities, by which a developer can migrate the entities like Dashboard and their dependency entities from source to destination environment, which has reduced the developer effort and time. CRUD operations for entities on the Postgres DB are done using GraphQL, PostgreSQL, react.js, and node.",
+    "Implemented and debugged a lot of UI features which improved the data visualization dashboard usage level"],
+    "imageSrc": "history/athena.png"
+  },
+  {
+    "role": "Developer Intern",
+    "organisation": "Athenahealth",
+    "startDate": "Jan, 2021",
+    "endDate": "Jun, 2021",
+    "experiences": ["Worked on creation of Data Lens with all the required metrics and performed ETL, retrieving data from Snowflake, transferring it to Druid, ensuring data consistency, for a client Dashboard.",
+      "Implemented UI features to visualize the data in the dashboards.",
+      "Managed the data lens of the dashboards by performing snowflake queries"],
+    "imageSrc": "history/athena.png"
+  },
+  {
+    "role": "PEP Intern",
+    "organisation": "EPAM Systems",
+    "startDate": "Jan, 2020",
+    "endDate": "Jun, 2020",
+    "experiences": [
+      "Hands-on experience with Java, Maven, OOPs, Web Technologies, and Database Management",
+      "Developed proficiency in Java, gaining practical skills in software development and deployment."
+    ],
+    "imageSrc": "history/epam.png"
+  }
+]
