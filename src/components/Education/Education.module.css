@@ -1,12 +1,12 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
+  /* position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
-  z-index: 1;
+  padding: 73px; */
+  margin-top: 76px;
+  /* z-index: 1; */
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -23,11 +23,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 94%; /*oct*/
 
   /* flex-wrap: wrap;  */
   /* added it now */
 }
 
+.outerContent {
+  justify-content: center;
+  display: flex;
+}
 
 .educationLogoName{
   display: flex;
@@ -75,7 +80,7 @@
 
 .universityInfo p {
   margin-bottom: 5px;
-  color: #d4cece;
+  color: #cecece;
 }
 
 .universityInfo ul {

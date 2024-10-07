@@ -9,14 +9,16 @@ const SkillSection = ({ title, skills }) => {
     <div className={styles.skills}>
       <h3>{title}</h3>
       <div className={styles.skillContainer}>
-        {skills.map((skill, id) => (
-          <div key={id} className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+        <div className={skills.length > 6 ? styles.skillsWrapper : ''}>
+          {skills.map((skill, id) => (
+            <div key={id} className={styles.skill}>
+              <div className={styles.skillImageContainer}>
+                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+              </div>
+              <p>{skill.title}</p>
             </div>
-            <p>{skill.title}</p>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -31,7 +33,7 @@ export const Skills = () => {
 
         <SkillSection title="Programming" skills={s.programming} />
 
-        <SkillSection title="Web Technologies" skills={s.webTechnologies} />
+        <SkillSection title="Web Development" skills={s.webTechnologies} />
 
       </div>
 

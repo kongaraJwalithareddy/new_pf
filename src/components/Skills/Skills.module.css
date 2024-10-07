@@ -28,6 +28,11 @@
   flex-wrap: wrap;
   gap: 37px;
   margin-bottom: 50px;
+  /* border: 1px solid rgb(100, 100, 100); */
+  border: 1px solid #19376d;
+  border-radius: 20px;
+  padding-inline: 20px !important;
+  background-color: rgba(12, 12, 12, 0.6);
 }
 
 .skillContainer {
@@ -36,7 +41,8 @@
 }
 
 .skill {
-  display: flex;
+  /* display: flex; */
+  display: inline-block;
   flex-direction: column;
   align-items: center;
   gap: 11px;
@@ -59,9 +65,10 @@
 }
 
 .skill p {
-  font-size: 15px;
-  font-family: var(--font-roboto);
+  font-size: 16px;
+  /* font-family: var(--font-roboto); */
   font-weight: 500;
+  text-align: center;
 }
 
 .history {
@@ -87,7 +94,7 @@
 }
 
 .historyItemDetails {
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
 }
 
 .historyItemDetails h3 {
@@ -96,7 +103,7 @@
 }
 
 .historyItemDetails p {
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: 300;
 }
 
@@ -124,5 +131,39 @@
   .history {
     width: 100%;
     gap: 9px;
+  }
+}
+
+.skills {
+  overflow-x: auto; 
+  white-space: nowrap; /* Prevent line breaks */
+  padding: 10px 0; /* Add some padding for aesthetics */
+}
+
+.skillContainer {
+  display: inline-block; /* Allow items to be inline for scrolling */
+  overflow-x: auto; 
+  margin-top: 15px;
+}
+
+/* .skill {
+  display: inline-block; 
+  margin-right: 20px; 
+} */
+
+.skillsWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-40%);
   }
 }

@@ -9,6 +9,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  border: 1px solid #19376d;
 }
 
 .title {
@@ -23,6 +24,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 30px;
 }
 
 .aboutImage {
@@ -41,12 +43,17 @@
 }
 
 .resumeButton{
-  width: 30%;
-  margin-left: 30px;
-  background-color: var(--color-secondary);
-  color: #a9d0ff;
-  border-radius: 10px;
-  border-color: #43609e;
+  width: 25%;
+  height: 40px;
+  /* margin-left: 30px; */
+  background-color: whitesmoke;
+  color: var(--color-secondary);
+  border-radius: 30px;
+  /* border-color: whitesmoke; */
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  align-self: center;
 }
 
 .aboutItem {
@@ -76,7 +83,9 @@
 }
 
 .aboutItem p {
-  font-size: 25px;
+  /* font-size: 18px; */
+  /* font-family: "Roboto"; */
+  text-align: justify;
 }
 
 @media screen and (max-width: 830px) {
@@ -101,5 +110,11 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .resumeButton{
+    width: 50%;
+    align-self: center;
+    margin-left: 0;
   }
 }
