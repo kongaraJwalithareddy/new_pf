@@ -7,6 +7,7 @@ export const Education = () => {
   return (
     <section className={styles.container} id="education">
       <h2 className={styles.title}>Education</h2>
+      <div className={styles.outerContent}>
       <div className={styles.content}>
 
         <div className={styles.educationBox}>
@@ -20,8 +21,8 @@ export const Education = () => {
           </div>
           <div className={styles.universityInfo}>
             <p >Masters in <b className={styles.cs}>Computer Science </b> </p>
-            <p>2023 Jan - 2024 Dec</p>
-            <p>GPA: 3.83/ 4.0</p>
+            <p>Jan 2023 - Dec 2024</p>
+            <p>GPA: 3.8/ 4.0</p>
           </div>
         </div>
 
@@ -37,10 +38,11 @@ export const Education = () => {
           </div>
           <div className={styles.universityInfo}>
             <p >Bachelor of Technology in <b className={styles.cs}>Information Technology </b> </p>
-            <p>2017 July - 2021 June</p>
-            <p>GPA: 9.3/ 10.0</p>
+            <p>July 2017 - June 2021</p>
+            <p>GPA: 3.8/ 4.0</p>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

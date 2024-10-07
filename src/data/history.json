@@ -1,22 +1,45 @@
 [
   {
-    "role": "Software Developer (full-stack)",
+    "role": "Data Management Assistant",
+    "organisation": "California State University",
+    "startDate": "Feb, 2023",
+    "endDate": "Present",
+    "experiences": ["Managed Career Center database, using SQL queries to maintain records, ensuring 99% data accuracy and integrity.",
+    "Developed web applications and scripts that automated data entry, and validation resulting in a 40% increase in productivity",
+    "Leveraged data analysis tools- Power BI, SQL, MS Access to extract insights, improving decision-making efficiency."],
+    "imageSrc": "history/csu.webp"
+  },
+  {
+    "role": "Software Intern",
+    "organisation": "Radiance Engineering",
+    "startDate": "Jun, 2024",
+    "endDate": "Aug 2024",
+    "experiences": ["Engineered web app to streamline employee schedules and equipment tracking, improving resource allocation by 15%.", 
+    "Developed and deployed a Power BI dashboard, monitoring container manufacturing and repair KPIs, boosting 10% efficiency.",
+    "Enhanced application by integrating new UI components, improving user experience and interface responsiveness."],
+    "imageSrc": "history/rad.jpeg"
+  },
+  {
+    "role": "Software Engineer (full-stack)",
     "organisation": "Athenahealth",
     "startDate": "Jun, 2021",
     "endDate": "Dec 2022",
-    "experiences": ["Improved data visualization platform, adding features and developing dashboards for performance insights on revenue and patient flow.", 
-    "Developed a pipeline Migration of Entities, by which a developer can migrate the entities like Dashboard and their dependency entities from source to destination environment, which has reduced the developer effort and time. CRUD operations for entities on the Postgres DB are done using GraphQL, PostgreSQL, react.js, and node.",
-    "Implemented and debugged a lot of UI features which improved the data visualization dashboard usage level"],
+    "experiences": ["Developed and Enhanced athenahealth’s Data Visualization platform using ReactJS, NodeJS, ExpressJS, GraphQL, PostgreSQL supporting 15+ dashboards, delivering critical performance insights on revenue and patient flow to 8K healthcare practices.", 
+    "Built a one-click data migration pipeline across environments, reducing developer effort by 60%. Utilized React.js and Post- greSQL, and contributed to all SDLC phases, including Data Modeling, System Analysis, Design, Planning, and Testing.",
+    "Successfully integrated automated testing into CI/CD pipelines, streamlining the s/w development and testing processes.",
+    "Revamped the application codebase, refining reusable components, covering 90% code through unit test case development.",
+    "Coordinated with Product Owners to develop interfaces and integrate back-end systems, increasing user engagement by 15%."],
     "imageSrc": "history/athena.png"
   },
   {
-    "role": "Developer Intern",
+    "role": "Software Engineer Intern",
     "organisation": "Athenahealth",
     "startDate": "Jan, 2021",
     "endDate": "Jun, 2021",
     "experiences": ["Worked on creation of Data Lens with all the required metrics and performed ETL, retrieving data from Snowflake, transferring it to Druid, ensuring data consistency, for a client Dashboard.",
-      "Implemented UI features to visualize the data in the dashboards.",
-      "Managed the data lens of the dashboards by performing snowflake queries"],
+      "Implemented dozens of UI features to visualize the data in the dashboards.",
+      "Handled application downtime by implementing a Maintenance page, PostgreSQL CRUD operations, and email notifications",
+      "Conducted performance and automation tests for 4 releases using Jmeter, Elasticsearch. Documented and presented insights."],
     "imageSrc": "history/athena.png"
   },
   {
@@ -25,7 +48,8 @@
     "startDate": "Jan, 2020",
     "endDate": "Jun, 2020",
     "experiences": [
-      "Hands-on experience with Java, Maven, OOPs, Web Technologies, and Database Management",
+      "Enhanced internal web application using Java, Maven, and front-end technologies; improved user interface and experience.",
+      "Collaborated with the team and contributed to data ingestion from one Database to another using Python scripts",
       "Developed proficiency in Java, gaining practical skills in software development and deployment."
     ],
     "imageSrc": "history/epam.png"

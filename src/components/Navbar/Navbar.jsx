@@ -7,9 +7,10 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+    <div className={styles.outerNavbar}>
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        Jwalitha Kongara
       </a>
       <div className={styles.menu}>
         <img
@@ -30,13 +31,13 @@ export const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
             <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#education">Education</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
@@ -47,5 +48,6 @@ export const Navbar = () => {
         </ul>
       </div>
     </nav>
+    </div>
   );
 };

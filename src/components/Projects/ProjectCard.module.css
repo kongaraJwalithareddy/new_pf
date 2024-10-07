@@ -11,7 +11,13 @@
 }
 
 .projDesc{
-  min-height: 420px;
+  min-height: 340px;
+  img {
+    width: 298px;
+    height: 200px;
+    border-radius: 10px;
+    filter: brightness(0.7);
+  }
 }
 
 .image {
@@ -19,14 +25,16 @@
 }
 
 .title {
+  text-align: center;
   font-size: 25px;
   font-weight: 700;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  /* font-weight: 400; */
+  text-align: center;
 }
 
 .skills {
@@ -60,6 +68,6 @@
   font-size: 20px;
   /* font-weight: 600; */
   border-radius: 100px;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   padding: 1px 22px;
 }

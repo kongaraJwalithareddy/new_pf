@@ -19,9 +19,11 @@ export const ProjectCard = ({
       </div>
       
       <div className={styles.links}>
-        <a href={source} className={styles.link}>
+      { source &&
+        (<a href={source} className={styles.link}>
           Source
         </a>
+      )}
       </div>
     </div>
   );
